@@ -1,0 +1,134 @@
+body{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    margin: 0%;
+    background-repeat: no-repeat;
+    color: red;
+    transition: 0.30s;
+}
+
+.main{
+    position: relative;
+}
+
+.name{
+    font-family: Righteous;
+    font-size: 600%;
+    font-weight: 100%;
+}
+
+.description{
+    font-family: Righteous;
+    font-size: 150%;
+    font-weight: 70%;
+}
+
+.beer img, .juice img, .coffee img{
+    width:70px;
+    position: absolute;
+}
+
+
+.beer img{
+    top: 10%;
+    left: 10%;
+    transform: rotate(-15deg);
+}
+
+.coffee img{
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    transform: rotate(-15deg);
+}
+
+.juice img{
+    top: 5%;
+    right: 25%;
+    transform: rotate(15deg);
+}
+
+
+
+.caption{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+button{
+    color: red;
+    background-color:bisque;
+    width: 10%;
+    height: 8%;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-family: Righteous;
+    transition: 0.20s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+    
+}
+
+button:hover{
+    color: bisque;
+    background-color:red;
+}
+
+button:active{
+    color: red;
+    background-color:bisque;
+}
+
+/*.button{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}*/
+
+.button{
+    position: relative;
+    height: 100vh;
+}
+
+
+
+.demo{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.download{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    margin-left: 0.5%;
+}
+
+.button-img{
+    width: 30px;
+}
+
+.image-tall img{
+    position: absolute;
+    right: 45%;
+    top: -150px;
+    width: 25%;
+    transform: rotate(-10deg);
+}
+
+
+.image-main img{
+    position: absolute;
+    right: -5%;
+    top: 27%;
+    width: 60%;
+    transform: rotate(-10deg);
+}
